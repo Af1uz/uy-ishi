@@ -1,0 +1,20 @@
+import React from "react";
+import LoaderItem from "../Companents/LoaderItem";
+
+const Loader = ({ product }) => {
+  console.log(product);
+  return (
+    <div>
+      <h1 className="tags">Afruz Movies</h1>
+
+      {
+        <div className="mm">
+          {product.length &&
+            product.map((item, index) => <LoaderItem key={index} {...item} />)}
+        </div>
+      }
+    </div>
+  );
+};
+
+export default Loader;
