@@ -1,6 +1,5 @@
 import "./App.css";
 import { useEffect, useState } from "react";
-import Product from "./Companents/LoaderItem";
 import Loader from "./Companents/Loader";
 
 function App() {
@@ -13,7 +12,7 @@ function App() {
     fetch(api)
       .then((res) => res.json())
       .then((data) => setProduct(data.Search));
-  }, []);
+  }, [api]); // ✅ api dependency qo‘shildi
 
   const handleChange = (e) => {
     setName(e.target.value);
@@ -34,8 +33,8 @@ function App() {
           value={name}
           placeholder="kino/mult"
           type="search"
+          className="xx"
         />
-
         <button onClick={handleSearch} className="aa">
           Search
         </button>
