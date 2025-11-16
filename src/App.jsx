@@ -1,7 +1,7 @@
 import "./App.css";
 import { useEffect, useState } from "react";
 // import Loader from "./Companents/Loader";
-
+import { ToastContainer, toast } from 'react-toastify';
 
 
 
@@ -32,15 +32,21 @@ function App() {
     e.preventDefault()
 
     if(user.trim().length && paswd.trim().length){
-      alert("Succesful")
+      // alert("Succesful")
+      toast.success("mufaqiyatli",{
+        position: "top-center",
+      });
       
-
+    
       setUser("");
       setPaswd("");
       setImg("");
-
     }else{
-      alert("Xato topildi")
+      // alert("Xato topildi")
+
+      toast.error("Code Error",{
+        position: "top-center",
+      });
     }
 
   };
