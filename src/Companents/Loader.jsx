@@ -1,10 +1,10 @@
-import React from "react";
-import LoaderItem from "../Companents/LoaderItem";
+// import React from "react";
+// import LoaderItem from "../Companents/LoaderItem";
 
-const Loader = ({ product }) => {
-  return (
-    <div>
-      <h1 className="tags">Afruz Movies</h1>
+// const Loader = ({ product }) => {
+//   return (
+//     <div>
+//       <h1 className="tags">Afruz Movies</h1>
 
       {/* <form className="froma" >
 
@@ -15,7 +15,7 @@ const Loader = ({ product }) => {
 
       </form> */}
 
-      {
+      {/* {
         <div className="mm">
           {product.length &&
             product.map((item, index) => <LoaderItem key={index} {...item} />)}
@@ -25,4 +25,4 @@ const Loader = ({ product }) => {
   );
 };
 
-export default Loader;
+export default Loader; */}

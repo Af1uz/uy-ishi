@@ -1,4 +1,4 @@
-.mm{
+/* .mm{
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -47,4 +47,59 @@ body{
     width: 300px;
     border-radius: 15px;
     border-color: white;
+} */
+
+body{
+    background-color: black;
+}
+
+.App{
+    width: 100%;
+}
+.m{
+    width: 1200px;
+    margin: auto;
+}
+.x{
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    border: 1px solid;
+    border-radius: 20px;
+    margin-top: 100px;
+    background-color: rgb(213, 213, 213);
+}
+.users{
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 30px;
+    border-radius: 20px;
+}
+.paswords{
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 30px;
+    border-radius: 20px;
+}
+.files{
+    width: 90%;
+    margin-left: 25px;
+    margin-top: 10px;
+
+}
+.butoncha{
+    width: 200px;
+    height: 40px;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(10, 10, 43);
+    border-color: white;
+    border: 3px solid;
+}
+.af{
+    text-align: center;
 }
